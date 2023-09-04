@@ -1,6 +1,6 @@
 👋 Hi, I’m @MichaelEllnebrand
 - 👀 I’m interested in automation and game development.
-- 🌱 I’m currently learning Python, GitHub, Azure DevOps, Pico-8 (LUA) and Unity (C#).
+- 🌱 I’m currently learning Python, C#, GitHub, Azure DevOps, Pico-8 (LUA) and Unity (C#).
 - 💞️ I’m looking to collaborate on ... 
 - 📫 You can reach me via email at [michael.ellnebrand@denatus.com](mailto:michael.ellnebrand@denatus.com)
 
