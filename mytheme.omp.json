@@ -1,11 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "final_space": true,
-    "console_title_template": "{{if .Root}} \u26a1 {{end}}\u1f4c2 {{ .PWD }}",
+    "console_title_template": "{{if .Root}} \u26a1 {{end}}\ud83d\udcc2 {{ .PWD }}",
     "version": 2,
     "palette": {
         "text-color": "#ffffff",
-        "text-color-info": "#ffffff",
+        "text-color-info": "#bdbdbd",
         "text-color-prompt": "#007acc",
         "admin-background": "#bd3629",
         "session-background": "#007acc",
