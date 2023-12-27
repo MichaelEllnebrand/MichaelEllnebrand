@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "final_space": true,
-    "console_title_template": "{{ .PWD }}",
+    "console_title_template": "{{if .Root}} \u26a1 {{end}}}\u1f4c2 {{ .PWD }}",
     "version": 2,
     "palette": {
         "text-color": "#ffffff",
