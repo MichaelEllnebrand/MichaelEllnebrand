@@ -163,7 +163,7 @@
                     "type": "os",
                     "style": "plain",
                     "foreground": "p:text-color-prompt",
-                    "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}"
+                    "template": "{{ if .WSL }}\uE62A \u21d2 {{ end }}{{.Icon}}"
                 },
                 {
                     "type": "status",
