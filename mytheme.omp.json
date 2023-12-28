@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "final_space": true,
-    "console_title_template": "{{if .Root}}\u26a1 {{end}}\ud83d\udcc2 {{ .PWD }}",
+    "console_title_template": "{{if .Root}} \u26a1 {{end}}\ud83d\udcc2 {{ .PWD }}",
     "version": 2,
     "palette": {
         "text-color": "#ffffff",
@@ -69,8 +69,8 @@
                 },
                 {
                     "type": "path",
-                    "style": "powerline",
-                    "powerline_symbol": "\ue0b0",
+                    "style": "diamond",
+                    "trailing_diamond": "\ue0b0",
                     "foreground": "p:text-color",
                     "background": "p:path-background",
                     "template": " {{ .Path }} ",
@@ -90,8 +90,8 @@
                 },
                 {
                     "type": "git",
-                    "style": "powerline",
-                    "powerline_symbol": "\ue0b0",
+                    "style": "diamond",
+                    "trailing_diamond": "\ue0b0",
                     "foreground": "p:version-control-text-color",
                     "background": "p:version-control-background",
                     "background_templates": [
@@ -108,8 +108,8 @@
                 },
                 {
                     "type": "svn",
-                    "style": "powerline",
-                    "powerline_symbol": "\ue0b0",
+                    "style": "diamond",
+                    "trailing_diamond": "\ue0b0",
                     "foreground": "p:version-control-text-color",
                     "background": "p:version-control-background",
                     "template": " \ue0a0{{.Branch}} r{{.BaseRev}} {{.Working.String}} ",
