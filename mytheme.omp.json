@@ -6,7 +6,8 @@
     "palette": {
         "text-color": "#ffffff",
         "text-color-info": "#bdbdbd",
-        "text-color-prompt": "#007acc",
+        "text-color-os": "#007acc",
+        "text-color-prompt": "#004090",
         "admin-background": "#bd3629",
         "session-background": "#007acc",
         "path-background": "#004090",
@@ -162,7 +163,7 @@
                 {
                     "type": "os",
                     "style": "plain",
-                    "foreground": "p:text-color-prompt",
+                    "foreground": "p:text-color-os",
                     "template": "{{ if .WSL }}(\uE62A){{ end }}{{.Icon}}"
                 },
                 {
