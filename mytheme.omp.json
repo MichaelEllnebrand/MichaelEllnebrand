@@ -6,8 +6,8 @@
     "palette": {
         "text-color": "#ffffff",
         "text-color-info": "#bdbdbd",
-        "text-color-os": "#007acc",
-        "text-color-prompt": "#004090",
+        "text-color-os": "#70a0f0",
+        "text-color-prompt": "#007acc",
         "admin-background": "#bd3629",
         "session-background": "#007acc",
         "path-background": "#004090",
