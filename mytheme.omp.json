@@ -44,7 +44,7 @@
                     "type": "upgrade",
                     "style": "plain",
                     "foreground": "p:text-color-info",
-                    "template": "\uf019 New version of oh-my-posh available! ",
+                    "template": "{{if 1==2}}\uf019 New version of oh-my-posh available! {{end}}",
                     "properties": {
                         "cache_timeout": 10
                     }
