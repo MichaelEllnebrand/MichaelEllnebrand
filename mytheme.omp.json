@@ -134,7 +134,7 @@
                     "template": "\uf0e7"
                 },
                 {
-                    "type": "kubectl",
+                    "type": "disabled-kubectl",
                     "style": "diamond",
                     "leading_diamond": "\ue0b6",
                     "trailing_diamond": "\ue0b4 ",
